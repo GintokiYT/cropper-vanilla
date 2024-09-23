@@ -1,0 +1,39 @@
+#dropZone {
+  width: 500px;
+  height: 300px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.zoom-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.zoom-button:active {
+  background-color: #ddd;
+}
+
+.slider {
+  width: 300px;
+  margin: 0 10px;
+}
